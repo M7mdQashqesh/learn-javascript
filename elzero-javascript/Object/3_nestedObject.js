@@ -21,7 +21,7 @@ let user = {
   // Method
   checkAv: function () {
     // available => search in global scope, to make it true, should use (user.available)
-    // if not exist in global scope => does not defined error
+    // if not exist in global scope => error "is not defined"
     if (user.available === true) {
       return `Free for work`;
     } else {
@@ -34,7 +34,7 @@ console.log(user.theName);
 console.log(user.theAge);
 
 console.log(user.skills);
-// This is array, if write ( user.skills. ), will desplay methods of array, Example
+// This is array, if write ( user.skills. ), will display methods of array, Example
 console.log(user.skills.join(" | "));
 // Can access to element like what we learn in array, by index
 console.log(user.skills[2]); // access with index

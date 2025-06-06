@@ -78,8 +78,9 @@ console.log(user.ageInDays());
 let person = {
   theName: "Mohammed",
   theAge: 21,
-  ageInMounth: function () {
-    return person.theAge * 12;
+  ageInMonth: function () {
+    // return person.theAge * 12;
+    return this.theAge * 12;
   },
   printThis: function () {
     return this;
@@ -89,4 +90,4 @@ let person = {
 console.log(person);
 console.log(person.printThis());
 
-console.log(person.ageInMounth());
+console.log(person.ageInMonth());
