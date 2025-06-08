@@ -1,0 +1,46 @@
+.container {
+  border-radius: 10px;
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container .form {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #ddd;
+}
+
+.container .form .input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 20px;
+  outline: none;
+}
+
+.container .form .add {
+  padding: 10px;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.container .form .add:hover {
+  background-color: rgb(255, 99, 43);
+}
+
+.container .tasks {
+  padding: 40px 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
