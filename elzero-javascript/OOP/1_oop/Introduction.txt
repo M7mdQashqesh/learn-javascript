@@ -1,0 +1,13 @@
+OOP
+  - What is OOP ?
+    - OOP Stands For => Object Oriented Programming
+    - OOP Is A Paradigm Or Style Of Code
+    - OOP Use The Concept Of Object To Design A Computer Program
+    - Its Not New
+    - Some Languages Support OOP And Some Not
+    - Object Is A Package Contains Properties And Functions That Work Together To Produce Something In Your Application, Functions Here Called Methods
+
+  - Why We Use OOP ?
+    - You Will Be Able To Create A Large And Complex Software Architecture In Organized Way
+    - You Will Be Able To Hide Certain Parts Of Code In Your Object With Encapsulation To Prevent Mess With The Code.
+    - You Will Be Able To Create Reusable Objects To Use In Your Application Easily With Inheritance 
