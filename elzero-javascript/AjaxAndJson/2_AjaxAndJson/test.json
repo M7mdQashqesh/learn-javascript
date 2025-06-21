@@ -1,0 +1,11 @@
+{
+  "string": "Elzero",
+  "number":100,
+  "object": {
+    "PS": "Hebron",
+    "USA": "Chicago"
+  },
+  "array": ["HTML", "CSS", "JavaScript"],
+  "boolean": true,
+  "null": null
+}
